@@ -1,0 +1,11 @@
+^C:\USERS\GAMES\DESKTOP\CRYPTO\ADHOC.CPP.PROTO
+if not exist adhoc.cpp copy "C:\Users\games\Desktop\crypto\adhoc.cpp.proto" adhoc.cpp
+        echo: >> adhoc.cpp.copied
+^C:\USERS\GAMES\DESKTOP\CRYPTO\RDRAND.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Cx /Zi /Fo"x64\cryptlib\Release\rdrand-x64.obj" "C:\Users\games\Desktop\crypto\rdrand.asm"
+^C:\USERS\GAMES\DESKTOP\CRYPTO\RDSEED.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Cx /Zi /Fo"x64\cryptlib\Release\rdseed-x64.obj" "C:\Users\games\Desktop\crypto\rdseed.asm"
+^C:\USERS\GAMES\DESKTOP\CRYPTO\X64DLL.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Zi /Fo"x64\cryptlib\Release\x64dll.obj" "C:\Users\games\Desktop\crypto\x64dll.asm"
+^C:\USERS\GAMES\DESKTOP\CRYPTO\X64MASM.ASM
+ml64.exe /c /nologo /D_M_X64 /W3 /Zi /Fo"x64\cryptlib\Release\x64masm.obj" "C:\Users\games\Desktop\crypto\x64masm.asm"
